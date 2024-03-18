@@ -75510,7 +75510,7 @@ i=t.u6
 l=A.UZ(A.a([A.a9u("Hi! I'm Vikas",l,j?g:k.iJ(24))],i),!0,new A.acK(),2)
 h=A.bR(0,80)
 k=A.UZ(A.a([A.a9u("Flutter Developer",h,j?g:k.No(B.aw,24,1.2))],i),!0,new A.acL(),2)
-return A.jy(g,B.R,A.d8(B.a3,A.a([d,A.bG(A.a([A.d8(B.a3,A.a([A.bq(g,A.di(A.a([A.bG(A.a([new A.e4(new A.ah(0,m,0,1/0),l,g),new A.e4(new A.ah(0,m,0,1/0),k,g),new A.ki(g),new A.e4(new A.ah(0,e*0.5,0,1/0),A.ol(u.u,c==null?g:c.Nh(1.5)),g),new A.fv(g),A.kt(A.a([A.bG(A.a([A.ol("Email:",s),new A.m_(g),A.ol("vp0264267@gmail.com",c)],n),B.aa,B.q,B.u),new A.kj(g)],n),0,0),new A.h_(g),A.di(A.a([A.akx(B.bH,"m DOWNLOAD_CV",48,new A.acM(this),80),new A.kj(g)],n),B.y,B.q,B.u),new A.fv(g),new A.rm(g),A.bT("Social Media :",g,s,g,g),new A.fv(g),A.kt(A.asL($.aj7()),0,0)],n),B.aa,B.q,B.b5)],n),B.y,B.q,B.b5),B.m,g,g,g,g,g,g,new A.aC(0,o*0.1,0,0),B.i5,g,g,g)],n),B.A,B.a2)],n),B.aa,B.q,B.u)],n),B.A,B.a2),g,g,g)}}
+return A.jy(g,B.R,A.d8(B.a3,A.a([d,A.bG(A.a([A.d8(B.a3,A.a([A.bq(g,A.di(A.a([A.bG(A.a([new A.e4(new A.ah(0,m,0,1/0),l,g),new A.e4(new A.ah(0,m,0,1/0),k,g),new A.ki(g),new A.e4(new A.ah(0,e*0.5,0,1/0),A.ol(u.u,c==null?g:c.Nh(1.5)),g),new A.fv(g),A.kt(A.a([A.bG(A.a([A.ol("Email:",s),new A.m_(g),A.ol("vp0264267@gmail.com",c)],n),B.aa,B.q,B.u),new A.kj(g)],n),0,0),new A.h_(g),A.di(A.a([A.akx(B.bH,"m0 DOWNLOAD_CV",48,new A.acM(this),80),new A.kj(g)],n),B.y,B.q,B.u),new A.fv(g),new A.rm(g),A.bT("Social Media :",g,s,g,g),new A.fv(g),A.kt(A.asL($.aj7()),0,0)],n),B.aa,B.q,B.b5)],n),B.y,B.q,B.b5),B.m,g,g,g,g,g,g,new A.aC(0,o*0.1,0,0),B.i5,g,g,g)],n),B.A,B.a2)],n),B.aa,B.q,B.u)],n),B.A,B.a2),g,g,g)}}
 A.acN.prototype={
 $0(){var s,r=this.a,q=r.d
 q===$&&A.b()
@@ -75528,7 +75528,7 @@ $S:0}
 A.acM.prototype={
 $0(){var s=0,r=A.R(t.H),q
 var $async$$0=A.S(function(a,b){if(a===1)return A.O(b,r)
-while(true)switch(s){case 0:q=A.ane("assets/Vikas_CV.pdf")
+while(true)switch(s){case 0:q=A.ane("assets/assets//Vikas_CV.pdf")
 q.download="Vikas_CV.pdf"
 q.click()
 return A.P(null,r)}})
