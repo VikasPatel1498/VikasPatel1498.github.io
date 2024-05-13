@@ -75368,7 +75368,7 @@ if(n<850)return A.bG(A.a([A.jz(o,B.R,r.GG(q,s),o,o,s)],p),B.y,B.q,B.u)
 else return A.dj(A.a([A.jz(o,B.R,r.GG(q,n),o,o,s)],p),B.y,B.q,B.u)},
 $S:458}
 A.aa0.prototype={
-$2(a,b){var s,r,q,p=null,o="about me",n="Crafting Flutter Magic for You.",m="Experienced Flutter developer proficient in Dart, adept at creating efficient and visually stunning mobile applications. Skilled in implementing UI/UX designs with a commitment to delivering high-quality code. Continuously staying updated on emerging technologies to contribute expertise to innovative projects and enhance user experiences.",l="Tools and Technologies Inventory :"
+$2(a,b){var s,r,q,p=null,o="About Me",n="Crafting Flutter Magic for You.",m="Experienced Flutter developer proficient in Dart, adept at creating efficient and visually stunning mobile applications. Skilled in implementing UI/UX designs with a commitment to delivering high-quality code. Continuously staying updated on emerging technologies to contribute expertise to innovative projects and enhance user experiences.",l="Tools and Technologies Inventory :"
 A.ek()
 s=this.a
 r=s.c
@@ -75494,26 +75494,25 @@ s=s.c6$
 s.b=!0
 s.a.push(new A.acN(r))},
 l(){this.We()},
-E(a){var s,r,q,p,o,n,m,l,k,j,i,h,g=null,f=A.Y(a).p3,e=A.aI(a,g,t.w).w.a.a-32,d=f.y,c=d==null?g:d.iJ(14)
-d=f.w
-s=d==null?g:d.iJ(14)
-r=e*0.4
-q=e*0.3
+E(a){var s,r,q,p,o,n,m,l,k,j,i,h=null,g=A.Y(a).p3,f=A.aI(a,h,t.w).w.a.a-32,e=g.y,d=e==null?h:e.iJ(14)
+e=g.w
+s=e==null?h:e.iJ(14)
+r=f*0.4
+q=f*0.3
 p=r*0.4
 o=A.asP(p,q,r)*2
-d=this.d
-d===$&&A.b()
+e=this.d
+e===$&&A.b()
 n=t.p
-d=A.bq(g,A.d9(B.a3,A.a([A.d9(B.a3,A.a([A.dG(g,A.Ju(A.dh("assets/images/dots_globe_yellow.png",g,q,q),d),g,g,-(q/3),g,o*0.3+p,g)],n),B.A,B.a2),A.dG(g,A.aoG(this.d,q,o,g),g,g,g,-(e*0.53),g,g)],n),B.A,B.a2),B.m,g,g,g,g,o,g,g,g,g,g,g)
-m=e*0.7
-l=A.bR(0,60)
-k=f.b
-j=k==null
-i=t.u6
-l=A.UZ(A.a([A.a9u("Hi! I'm Vikas",l,j?g:k.iJ(24))],i),!0,new A.acK(),2)
-h=A.bR(0,80)
-k=A.UZ(A.a([A.a9u("Flutter Developer",h,j?g:k.Nn(B.aw,24,1.2))],i),!0,new A.acL(),2)
-return A.jz(g,B.R,A.d9(B.a3,A.a([d,A.bG(A.a([A.d9(B.a3,A.a([A.bq(g,A.dj(A.a([A.bG(A.a([new A.e4(new A.ah(0,m,0,1/0),l,g),new A.e4(new A.ah(0,m,0,1/0),k,g),new A.ki(g),new A.e4(new A.ah(0,e*0.5,0,1/0),A.ok(u.v,c==null?g:c.Ng(1.5)),g),new A.fv(g),A.kt(A.a([A.bG(A.a([A.ok("Email:",s),new A.m_(g),A.ok("vp0264267@gmail.com",c)],n),B.aa,B.q,B.u),new A.kj(g)],n),0,0),new A.h_(g),A.dj(A.a([A.aky(B.bH,"Download CV",48,new A.acM(this),80),new A.kj(g)],n),B.y,B.q,B.u),new A.fv(g),new A.rk(g),A.bT("Social Media :",g,s,g,g),new A.fv(g),A.kt(A.asM($.aj8()),0,0)],n),B.aa,B.q,B.b5)],n),B.y,B.q,B.b5),B.m,g,g,g,g,g,g,new A.aC(0,o*0.1,0,0),B.i5,g,g,g)],n),B.A,B.a2)],n),B.aa,B.q,B.u)],n),B.A,B.a2),g,g,g)}}
+e=A.bq(h,A.d9(B.a3,A.a([A.d9(B.a3,A.a([A.dG(h,A.Ju(A.dh("assets/images/dots_globe_yellow.png",h,q,q),e),h,h,-(q/3),h,o*0.3+p,h)],n),B.A,B.a2),A.dG(h,A.aoG(this.d,q,o,h),h,h,h,-(f*0.53),h,h)],n),B.A,B.a2),B.m,h,h,h,h,o,h,h,h,h,h,h)
+m=A.bR(0,60)
+l=g.b
+k=l==null
+j=t.u6
+m=A.UZ(A.a([A.a9u("Hi! I'm Vikas",m,k?h:l.iJ(24))],j),!0,new A.acK(),2)
+i=A.bR(0,80)
+l=A.UZ(A.a([A.a9u("Flutter Developer",i,k?h:l.Nn(B.aw,24,1.2))],j),!0,new A.acL(),2)
+return A.jz(h,B.R,A.d9(B.a3,A.a([e,A.bG(A.a([A.d9(B.a3,A.a([A.bq(h,A.dj(A.a([A.bG(A.a([new A.e4(new A.ah(0,f*0.7,0,1/0),m,h),new A.e4(new A.ah(0,f*0.65,0,1/0),l,h),new A.ki(h),new A.e4(new A.ah(0,f*0.5,0,1/0),A.ok(u.v,d==null?h:d.Ng(1.5)),h),new A.fv(h),A.kt(A.a([A.bG(A.a([A.ok("Email:",s),new A.m_(h),A.ok("vp0264267@gmail.com",d)],n),B.aa,B.q,B.u),new A.kj(h)],n),0,0),new A.h_(h),A.dj(A.a([A.aky(B.bH,"Download CV",48,new A.acM(this),80),new A.kj(h)],n),B.y,B.q,B.u),new A.fv(h),new A.rk(h),A.bT("Social Media :",h,s,h,h),new A.fv(h),A.kt(A.asM($.aj8()),0,0)],n),B.aa,B.q,B.b5)],n),B.y,B.q,B.b5),B.m,h,h,h,h,h,h,new A.aC(0,o*0.1,0,0),B.i5,h,h,h)],n),B.A,B.a2)],n),B.aa,B.q,B.u)],n),B.A,B.a2),h,h,h)}}
 A.acN.prototype={
 $0(){var s,r=this.a,q=r.d
 q===$&&A.b()
@@ -75786,7 +75785,7 @@ A.aeX.prototype={
 $1(a){if(a.grD()*100>20)this.a.mZ()},
 $S:41}
 A.aeY.prototype={
-$2(a,b){var s,r,q,p,o,n,m,l,k,j,i=null,h="my works",g="Meet My Projects",f="Innovative Flutter Developer Spearheading Cross-Platform Excellence. Transforming visions into reality, I craft dynamic and efficient mobile applications with Flutter. Proficient in Dart, I specialize in creating seamless user experiences and ensuring optimal functionality across platforms. Committed to staying ahead in the ever-evolving tech landscape, I bring a unique blend of creativity and technical expertise to every project, delivering solutions that resonate with users and exceed expectations."
+$2(a,b){var s,r,q,p,o,n,m,l,k,j,i=null,h="My Works",g="Meet My Projects",f="Innovative Flutter Developer Spearheading Cross-Platform Excellence. Transforming visions into reality, I craft dynamic and efficient mobile applications with Flutter. Proficient in Dart, I specialize in creating seamless user experiences and ensuring optimal functionality across platforms. Committed to staying ahead in the ever-evolving tech landscape, I bring a unique blend of creativity and technical expertise to every project, delivering solutions that resonate with users and exceed expectations."
 A.ek()
 s=this.b
 r=this.a
@@ -82630,17 +82629,17 @@ r($,"aI3","aj8",()=>{var q="https://gitlab.com/vp0264267",p="https://www.linkedi
 return A.a([A.Kf(B.Cw,q,q),A.Kf(B.mb,p,p),A.Kf(B.Cy,o,o),A.Kf(B.Cv,n,n),A.Kf(B.Cx,m,m)],A.aa("u<Ke>"))})
 r($,"aI4","amz",()=>A.a([A.lZ("assets/images/flutter.png"),A.lZ("assets/images/dart.png"),A.lZ("assets/images/firebase.png"),A.lZ("assets/images/android.png"),A.lZ("assets/images/apple.png"),A.lZ("assets/images/figma.png"),A.lZ("assets/images/git.png"),A.lZ("assets/images/python.png"),A.lZ("assets/images/django.png")],A.aa("u<Kd>")))
 r($,"aI6","amA",()=>A.a([A.aqp("Years of Experience","2"),A.aqp("Incredible Projects","10")],A.aa("u<Kq>")))
-r($,"aI2","au3",()=>A.a([A.xu(!0,14,"All"),A.xu(!1,3,"Travel and Tourism"),A.xu(!1,7,"E-commerce"),A.xu(!1,1,"Educational Apps"),A.xu(!1,2,"Social Networking Apps"),A.xu(!1,1,"Health and Fitness")],A.aa("u<IP>")))
-r($,"aHZ","au_",()=>{var q="Travel and Tourism",p="E-commerce",o="Social Networking Apps"
-return A.a([A.cn(u.C,0.5,u.H,"assets/images/projects/superkids.png",u.a,"Educational Apps","Super Kids App",0.225),A.cn("",0.3,"","assets/images/projects/happen.png",u.h,q,"Happen App",0.5),A.cn(u.J,0.3,u.A,"assets/images/projects/grocery.png",u.n,p,"Grocerylist Jamica App",0.475),A.cn("",0.5,u.O,"assets/images/projects/colorex.png",u.E,p,"Colorex App",0.225),A.cn("",0.5,u.P,"assets/images/projects/helpinghands.png",u.y,q,"Helping Hands Vehicle Lift App",0.2375),A.cn("",0.5,"","assets/images/projects/goodtogo.png",u.Q,q,"Goodtogo App",0.2375),A.cn(u.b,0.3,u.j,"assets/images/projects/mazoom.jpg",u.t,o,"Mazoom(Inviation And Scanner)App",0.475),A.cn(u.G,0.3,u.W,"assets/images/projects/justgozero.png",u.X,p,"Just Go Zero App",0.475),A.cn("",0.3,"",u.Z,u.B,p,"Just Go Zero Collector App",0.475),A.cn("",0.3,"","assets/images/projects/place.png",u.D,p,"Place App",0.475),A.cn(u.u,0.3,u.e,"assets/images/projects/goldenseal.png",u.L,p,"Golden Seal",0.475),A.cn("",0.3,"","assets/images/projects/chat.png",u.f,o,"Chat App",0.475),A.cn("",0.3,"","assets/images/projects/tom.png",u.x,p,"Tom The Organic Mart",0.475),A.cn("",0.3,u.F,"assets/images/projects/smileboard.png",u.i,"Health and Fitness","Smileboard App(Ionic Framework)",0.475)],t.vL)})
-r($,"aHY","atZ",()=>{var q="Travel and Tourism"
+r($,"aI2","au3",()=>A.a([A.xu(!0,14,"All"),A.xu(!1,3,"Travel and Tourism Apps"),A.xu(!1,7,"E-commerce Apps"),A.xu(!1,1,"Educational Apps"),A.xu(!1,2,"Social Networking Apps"),A.xu(!1,1,"Health and Fitness Apps")],A.aa("u<IP>")))
+r($,"aHZ","au_",()=>{var q="Travel and Tourism Apps",p="E-commerce Apps",o="Social Networking Apps"
+return A.a([A.cn(u.C,0.5,u.H,"assets/images/projects/superkids.png",u.a,"Educational Apps","Super Kids App",0.225),A.cn("",0.3,"","assets/images/projects/happen.png",u.h,q,"Happen App",0.5),A.cn(u.J,0.3,u.A,"assets/images/projects/grocery.png",u.n,p,"Grocerylist Jamica App",0.475),A.cn("",0.5,u.O,"assets/images/projects/colorex.png",u.E,p,"Colorex App",0.225),A.cn("",0.5,u.P,"assets/images/projects/helpinghands.png",u.y,q,"Helping Hands Vehicle Lift App",0.2375),A.cn("",0.5,"","assets/images/projects/goodtogo.png",u.Q,q,"Goodtogo App",0.2375),A.cn(u.b,0.3,u.j,"assets/images/projects/mazoom.jpg",u.t,o,"Mazoom(Inviation And Scanner)App",0.475),A.cn(u.G,0.3,u.W,"assets/images/projects/justgozero.png",u.X,p,"Just Go Zero App",0.475),A.cn("",0.3,"",u.Z,u.B,p,"Just Go Zero Collector App",0.475),A.cn("",0.3,"","assets/images/projects/place.png",u.D,p,"Place App",0.475),A.cn(u.u,0.3,u.e,"assets/images/projects/goldenseal.png",u.L,p,"Golden Seal",0.475),A.cn("",0.3,"","assets/images/projects/chat.png",u.f,o,"Chat App",0.475),A.cn("",0.3,"","assets/images/projects/tom.png",u.x,p,"Tom The Organic Mart",0.475),A.cn("",0.3,u.F,"assets/images/projects/smileboard.png",u.i,"Health and Fitness Apps","Smileboard App(Ionic Framework)",0.475)],t.vL)})
+r($,"aHY","atZ",()=>{var q="Travel and Tourism Apps"
 return A.a([A.cn("",0.3,"","assets/images/projects/happen.png",u.h,q,"Happen App",0.5),A.cn("",0.5,u.P,"assets/images/projects/helpinghands.png",u.y,q,"Helping Hands Vehicle Lift App",0.2375),A.cn("",0.5,"","assets/images/projects/goodtogo.png",u.Q,q,"Goodtogo App",0.2375)],t.vL)})
-r($,"aI_","au0",()=>{var q="E-commerce"
+r($,"aI_","au0",()=>{var q="E-commerce Apps"
 return A.a([A.cn("",0.5,u.O,"assets/images/projects/colorex.png",u.E,q,"Colorex App",0.225),A.cn(u.J,0.3,u.A,"assets/images/projects/grocery.png",u.n,q,"Grocerylist Jamica App",0.475),A.cn(u.G,0.3,u.W,"assets/images/projects/justgozero.png",u.X,q,"Just Go Zero App",0.475),A.cn("",0.3,"",u.Z,u.B,q,"Just Go Zero Collector App",0.475),A.cn("",0.3,"","assets/images/projects/place.png",u.D,q,"Place App",0.475),A.cn("",0.3,"","assets/images/projects/tom.png",u.x,q,"Tom The Organic Mart",0.475),A.cn(u.u,0.3,u.e,"assets/images/projects/goldenseal.png",u.L,q,"Golden Seal",0.475)],t.vL)})
 r($,"aI0","au1",()=>A.a([A.cn(u.C,0.3,u.H,"assets/images/projects/superkids.png",u.a,"Educational Apps","Super Kids App",0.5)],t.vL))
 r($,"aI5","au4",()=>{var q="Social Networking Apps"
 return A.a([A.cn(u.b,0.3,u.j,"assets/images/projects/mazoom.jpg",u.t,q,"Mazoom(Inviation And Scanner)App",0.475),A.cn("",0.3,"","assets/images/projects/chat.png",u.f,q,"Chat App",0.5)],t.vL)})
-r($,"aI1","au2",()=>A.a([A.cn("",0.3,u.F,"assets/images/projects/smileboard.png",u.i,"Health and Fitness","Smileboard App(Ionic Framework)",0.475)],t.vL))
+r($,"aI1","au2",()=>A.a([A.cn("",0.3,u.F,"assets/images/projects/smileboard.png",u.i,"Health and Fitness Apps","Smileboard App(Ionic Framework)",0.475)],t.vL))
 s($,"aJA","amH",()=>new A.G())
 r($,"aCl","amG",()=>{var q=new A.a22()
 q.WM($.amH())
