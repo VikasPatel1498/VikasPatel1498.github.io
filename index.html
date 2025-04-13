@@ -1,7 +1,19 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <base href="/">
+  <!--
+    If you are serving your web app in a path other than the root, change the
+    href value below to reflect the base path you are serving from.
+
+    The path provided below has to start and end with a slash "/" in order for
+    it to work correctly.
+
+    For more details:
+    * https://developer.mozilla.org/en-US/docs/Web/HTML/Element/base
+
+    This is a placeholder for base href that will be replaced by the value of
+    the `--base-href` argument provided to `flutter build`.
+  -->
 
   <meta charset="UTF-8">
   <meta content="IE=Edge" http-equiv="X-UA-Compatible">
@@ -19,33 +31,28 @@
   <title>portfolio</title>
   <link rel="manifest" href="manifest.json">
 
-  <!-- ✅ Use template token, not deprecated variable -->
   <script>
-    const serviceWorkerVersion = '"527963239"';
+    // The value below is injected by flutter build, do not touch.
+    const serviceWorkerVersion = "2154407417";
   </script>
-
-  <!-- ✅ Correct flutter loader -->
+  <!-- This script adds the flutter initialization JS code -->
   <script src="flutter.js" defer></script>
 </head>
-<body style="background-color: white;">
-
-<script>
-  window.addEventListener('load', function () {
-    // Optional: use "auto", "html", or "canvaskit"
-    window.flutterWebRenderer = "auto";
-
-    // ✅ Use latest initialization method
-    _flutter.loader.load({
-      serviceWorker: {
-        serviceWorkerVersion: serviceWorkerVersion,
-      }
-    }).then(function (engineInitializer) {
-      return engineInitializer.initializeEngine();
-    }).then(function (appRunner) {
-      return appRunner.runApp();
+<body>
+  <script>
+    window.addEventListener('load', function(ev) {
+      // Download main.dart.js
+      _flutter.loader.loadEntrypoint({
+        serviceWorker: {
+          serviceWorkerVersion: serviceWorkerVersion,
+        },
+        onEntrypointLoaded: function(engineInitializer) {
+          engineInitializer.initializeEngine().then(function(appRunner) {
+            appRunner.runApp();
+          });
+        }
+      });
     });
-  });
-</script>
-
+  </script>
 </body>
 </html>
