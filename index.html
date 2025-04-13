@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <base href="$FLUTTER_BASE_HREF">
+  <base href="/">
 
   <meta charset="UTF-8">
   <meta content="IE=Edge" http-equiv="X-UA-Compatible">
@@ -21,7 +21,7 @@
 
   <!-- ✅ Use template token, not deprecated variable -->
   <script>
-    const serviceWorkerVersion = '{{flutter_service_worker_version}}';
+    const serviceWorkerVersion = '"527963239"';
   </script>
 
   <!-- ✅ Correct flutter loader -->
@@ -29,23 +29,23 @@
 </head>
 <body style="background-color: white;">
 
-  <script>
-    window.addEventListener('load', function () {
-      // Optional: use "auto", "html", or "canvaskit"
-      window.flutterWebRenderer = "auto";
+<script>
+  window.addEventListener('load', function () {
+    // Optional: use "auto", "html", or "canvaskit"
+    window.flutterWebRenderer = "auto";
 
-      // ✅ Use latest initialization method
-      _flutter.loader.load({
-        serviceWorker: {
-          serviceWorkerVersion: serviceWorkerVersion,
-        }
-      }).then(function (engineInitializer) {
-        return engineInitializer.initializeEngine();
-      }).then(function (appRunner) {
-        return appRunner.runApp();
-      });
+    // ✅ Use latest initialization method
+    _flutter.loader.load({
+      serviceWorker: {
+        serviceWorkerVersion: serviceWorkerVersion,
+      }
+    }).then(function (engineInitializer) {
+      return engineInitializer.initializeEngine();
+    }).then(function (appRunner) {
+      return appRunner.runApp();
     });
-  </script>
+  });
+</script>
 
 </body>
 </html>
